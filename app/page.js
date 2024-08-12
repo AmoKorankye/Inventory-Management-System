@@ -87,7 +87,7 @@ export default function Home() {
       <AppBar position="static" sx={{ bgcolor: '#161616' }}>
         <Toolbar sx={{ justifyContent: 'center' }}>
           <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
-            Inventory Tracker
+            Inventory Manager
           </Typography>
         </Toolbar>
       </AppBar>
@@ -187,7 +187,7 @@ export default function Home() {
 
         <Box bgcolor="#2C2C2C" p={2} borderRadius={1}>
           <Typography variant="h4" sx={{ mb: 2, borderBottom: '2px solid #444' }}>
-            Inventory Items
+            Current Inventory
           </Typography>
           {loading ? (
             <Box display="flex" justifyContent="center" alignItems="center" height="300px">
