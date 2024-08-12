@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Inventory Tracker
 
-## Getting Started
+This project is an Inventory Tracker web application built using React, Next.js, Firebase, and Material-UI. The application allows users to manage an inventory of items, including adding, removing, and searching for items.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Add Items**: Add new items to the inventory.
+- **Remove Items**: Remove items from the inventory.
+- **Search Items**: Search for items in the inventory.
+- **Real-time Updates**: Inventory updates in real-time using Firebase Firestore.
+- **User-friendly UI**: Built with Material-UI for a modern and responsive user interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Firebase**: A platform developed by Google for creating mobile and web applications.
+  - **Firestore**: A flexible, scalable database for mobile, web, and server development.
+- **Material-UI**: A popular React UI framework.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/inventory-tracker.git
+   cd inventory-tracker
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set up Firebase:**
+   - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
+   - Add a Firestore database to your project.
+   - Copy your Firebase configuration and replace the placeholder in the [`firebase.js`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2FHP%2FDesktop%2Fdev%2Fheadstarter%20AI%20projects%2Finventory-management-system%2Ffirebase.js%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\HP\Desktop\dev\headstarter AI projects\inventory-management-system\firebase.js") file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Run the application:**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. **Open your browser and navigate to:**
+   ```
+   http://localhost:3000
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Add New Item**: Click the "Add New Item" button, enter the item name, and click "Add".
+- **Remove Item**: Click the "Remove" button next to the item you want to remove.
+- **Search Items**: Use the search bar to filter items by name.
+
+## Project Structure
+
+- `pages/`: Contains the Next.js pages.
+- `components/`: Contains reusable React components.
+- [`firebase.js`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2FHP%2FDesktop%2Fdev%2Fheadstarter%20AI%20projects%2Finventory-management-system%2Ffirebase.js%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\HP\Desktop\dev\headstarter AI projects\inventory-management-system\firebase.js"): Firebase configuration and initialization.
+- `styles/`: Contains the CSS styles.
