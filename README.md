@@ -22,7 +22,7 @@ This project is an Inventory Tracker web application built using React, Next.js,
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/inventory-tracker.git
+   git clone https://github.com/AmoKorankye/Inventory-Management-System.git
    cd inventory-tracker
    ```
 
