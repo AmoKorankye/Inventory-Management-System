@@ -1,4 +1,4 @@
-# Inventory Tracker
+# Inventory Manager
 
 This project is an Inventory Tracker web application built using React, Next.js, Firebase, and Material-UI. The application allows users to manage an inventory of items, including adding, removing, and searching for items.
 
