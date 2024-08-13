@@ -57,4 +57,3 @@ This project is an Inventory Tracker web application built using React, Next.js,
 - `pages/`: Contains the Next.js pages.
 - `components/`: Contains reusable React components.
 - [`firebase.js`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2FHP%2FDesktop%2Fdev%2Fheadstarter%20AI%20projects%2Finventory-management-system%2Ffirebase.js%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\HP\Desktop\dev\headstarter AI projects\inventory-management-system\firebase.js"): Firebase configuration and initialization.
-- `styles/`: Contains the CSS styles.
